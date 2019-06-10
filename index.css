@@ -1,0 +1,21 @@
+body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.commonPadding {
+  padding: 5px;
+}
+
+.openingContent {
+}
+
+.inFlowTable {
+  border: 1px solid #000;
+}
+
+.inFlowTable th {
+  border: 1px solid #000;
+}
