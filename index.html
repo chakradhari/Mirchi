@@ -20,6 +20,12 @@
       Chillies
     </title>
     <link rel="stylesheet" href="resets.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -31,44 +37,38 @@
       </p>
     </section>
     <section id="todaysInFlow" class="commonPadding todaysInFlow">
-      <table class="inFlowTable">
+      <h4>Guntur Market Yard Live (Today's Date)</h4>
+
+      <table class="table table-bordered">
         <tbody>
           <tr>
-            <td>Arrivals</td>
+            <td scope="row">Arrivals</td>
             <td>Very Less</td>
           </tr>
           <tr>
-            <td>Market Prices</td>
+            <td scope="row">Market Prices</td>
             <td>Steady</td>
           </tr>
         </tbody>
       </table>
     </section>
     <section id="todaysAuctionPrices" class="todaysAuctionPrices">
-      <table>
-        <thead>
+      <h4>Latest Red Chillies Farmers Auction Prices (Today’s Date)</h4>
+      <table class="table table-bordered">
+        <thead class="thead-dard">
           <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th scope="col">Variety</th>
+            <th scope="col">Teja S17</th>
+            <th scope="col">334/Sannam</th>
+            <th scope="col">Byadgi</th>
+            <th scope="col">341</th>
+            <th scope="col">No 5</th>
+            <th scope="col">Devanur Deluxe</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
+            <td scope="row">Deluxe</td>
             <td></td>
             <td></td>
             <td></td>
@@ -77,7 +77,7 @@
             <td></td>
           </tr>
           <tr>
-            <td></td>
+            <td scope="row">Best</td>
             <td></td>
             <td></td>
             <td></td>
@@ -86,7 +86,16 @@
             <td></td>
           </tr>
           <tr>
+            <td scope="row">Medium Best</td>
             <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td scope="row">Best</td>
             <td></td>
             <td></td>
             <td></td>
@@ -97,47 +106,56 @@
         </tbody>
       </table>
     </section>
-    <section id="historicalGraphs" class="historicalGraphs"></section>
+    <section id="historicalGraphs" class="historicalGraphs">
+      <section id="sannam_graph" class="graph sannamGraph"></section>
+      <section id="teja_graph" class="graph"></section>
+      <section id="no5_graph" class="graph"></section>
+      <section id="341_graph" class="graph"></section>
+      <section id="denvar" class="graph"></section>
+      <section id="byadgi_graph" class="graph"></section>
+    </section>
 
     <section id="companyInfo" class="companyInfo">
-      <p>
-        About Andhra Trading Company
-      </p>
+      <section style="margin-bottom: 10px;">
+        <h4>
+          About Andhra Trading Company
+        </h4>
 
-      <p>
-        Andhra Trading Company is established in 1975 and is one of the largest
-        supplier of dried red chillies. This is part of Jamili group with
-        reputation spanning four generations. Quality is synonymous with our
-        group whether we are sourcing, trading or conducting exports. Our
-        customers and clients value this most which helps us sustain with long
-        term business relationships. Our clients are spread across the globe and
-        we will be able to supply chillies with consistent quality throughout
-        year.
-      </p>
+        <p>
+          Andhra Trading Company is established in 1975 and is one of the
+          largest supplier of dried red chillies. This is part of Jamili group
+          with reputation spanning four generations. Quality is synonymous with
+          our group whether we are sourcing, trading or conducting exports. Our
+          customers and clients value this most which helps us sustain with long
+          term business relationships. Our clients are spread across the globe
+          and we will be able to supply chillies with consistent quality
+          throughout year.
+        </p>
 
-      <section class="ourProductsSection">
-        <ul>
-          <li>Teja S17 Chilli</li>
-          <li>334/Sannam S4</li>
-          <li>Byadgi</li>
-          <li>341</li>
-          <li>No 5</li>
-          <li>Devanur Deluxe</li>
-        </ul>
+        <section class="ourProductsSection">
+          <ul class="list-group">
+            <li class="list-group-item">Teja S17 Chilli</li>
+            <li class="list-group-item">334/Sannam S4</li>
+            <li class="list-group-item">Byadgi</li>
+            <li class="list-group-item">341</li>
+            <li class="list-group-item">No 5</li>
+            <li class="list-group-item">Devanur Deluxe</li>
+          </ul>
+        </section>
       </section>
 
-      <section class="servicesList">
-        <p>The services we provide are,</p>
-        <ul>
-          <li>Buying and Sourcing as a service</li>
-          <li>Quality Inspection</li>
-          <li>Grading services</li>
-          <li>Storage and stock keeping services</li>
+      <section class="servicesList" style="margin-bottom: 10px;">
+        <h5>The services we provide are,</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Buying and Sourcing as a service</li>
+          <li class="list-group-item">Quality Inspection</li>
+          <li class="list-group-item">Grading services</li>
+          <li class="list-group-item">Storage and stock keeping services</li>
         </ul>
       </section>
 
       <section class="qualityQuote">
-        <p>Quality Control & Assurance</p>
+        <h5>Quality Control & Assurance</h5>
         <p>
           Our chillies are best in the market. We have a highly advanced quality
           inspection protocol and tools which were built up with into the system
@@ -146,6 +164,21 @@
         </p>
       </section>
     </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <script src="index.js"></script>
   </body>
 </html>

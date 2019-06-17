@@ -12,6 +12,14 @@ body {
 .openingContent {
 }
 
+.historicalGraphs {
+  display: flex;
+  flex-direction: "row";
+}
+
+.historicalGraphs .graph {
+  flex-basis: 45%;
+}
 .inFlowTable {
   border: 1px solid #000;
 }
