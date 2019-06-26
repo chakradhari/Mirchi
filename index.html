@@ -39,22 +39,22 @@
     <section id="todaysInFlow" class="commonPadding todaysInFlow">
       <h4>Guntur Market Yard Live (Today's Date)</h4>
 
-      <table class="table table-bordered">
+      <table id="OverAllInFlow" class="table table-bordered">
         <tbody>
           <tr>
             <td scope="row">Arrivals</td>
-            <td>Very Less</td>
+            <td></td>
           </tr>
           <tr>
             <td scope="row">Market Prices</td>
-            <td>Steady</td>
+            <td></td>
           </tr>
         </tbody>
       </table>
     </section>
     <section id="todaysAuctionPrices" class="todaysAuctionPrices">
       <h4>Latest Red Chillies Farmers Auction Prices (Today’s Date)</h4>
-      <table class="table table-bordered">
+      <table id="dailyRatesTable" class="table table-bordered">
         <thead class="thead-dard">
           <tr>
             <th scope="col">Variety</th>
@@ -68,16 +68,7 @@
         </thead>
         <tbody>
           <tr>
-            <td scope="row">Deluxe</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td scope="row">Best</td>
+            <td scope="row">Medium</td>
             <td></td>
             <td></td>
             <td></td>
@@ -103,11 +94,23 @@
             <td></td>
             <td></td>
           </tr>
+          <tr>
+            <td scope="row">Deluxe</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
         </tbody>
       </table>
     </section>
+    <!-- <section style="display: flex">
+        
+    </section> -->
     <section id="historicalGraphs" class="historicalGraphs">
-      <section id="sannam_graph" class="graph sannamGraph"></section>
+      <section id="sannam_graph"  class="graph"></section>
       <section id="teja_graph" class="graph"></section>
       <section id="no5_graph" class="graph"></section>
       <section id="341_graph" class="graph"></section>
@@ -179,6 +182,14 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="index.js"></script>
+    <script
+      async
+      defer
+      src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()"
+    ></script>
   </body>
 </html>

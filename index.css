@@ -14,10 +14,10 @@ body {
 
 .historicalGraphs {
   display: flex;
-  flex-direction: "row";
 }
 
-.historicalGraphs .graph {
+.graph {
+  flex-grow: 1;
   flex-basis: 45%;
 }
 .inFlowTable {
